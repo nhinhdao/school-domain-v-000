@@ -28,6 +28,6 @@ class School
         # puts @school.roster
         # @roster.map {|i, e| e.sort}
         # @roster
-        @roster.sort.to_h
+        sort.to_h
     end
 end
