@@ -11,9 +11,9 @@ class School
     def add_student(name, num)
         @roster[num] = []
         if @roster.keys.include?(num)
-            @roster[num] = []
             @roster[num] << name
         else
+            @roster[num] = []
             @roster[num] << name
         end
         @roster
