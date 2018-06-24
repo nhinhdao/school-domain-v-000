@@ -22,8 +22,8 @@ class School
     def grade(num)
         @roster[num]
     end
-    binding.pry
     def sort
+        binding.pry
         @roster.each {|i, e| e.sort}
         @roster
         @roster.sort.to_h
