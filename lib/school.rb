@@ -19,7 +19,7 @@ class School
     end
 
     def grade(num)
-        @roster.values_at(num)
+        @roster[num]
     end
 
     def sort
