@@ -23,6 +23,6 @@ class School
     end
 
     def sort
-        @roster.sort.flatten
+        @roster.keys.sort
     end
 end
