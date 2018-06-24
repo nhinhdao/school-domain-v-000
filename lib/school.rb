@@ -22,9 +22,10 @@ class School
     def grade(num)
         @roster[num]
     end
-    puts @school.roster
+
     def sort
         # binding.pry
+        puts @school.roster
         @roster.map {|i, e| e.sort}
         @roster
         @roster.sort.to_h
