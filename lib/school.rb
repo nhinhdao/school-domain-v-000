@@ -25,9 +25,9 @@ class School
 
     def sort
         # binding.pry
-        puts @school.roster
-        @roster.map {|i, e| e.sort}
-        @roster
+        # puts @school.roster
+        # @roster.map {|i, e| e.sort}
+        # @roster
         @roster.sort.to_h
     end
 end
